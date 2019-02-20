@@ -9,6 +9,8 @@ Selecting any of these categories takes the user to a new screen with a Recycler
 When a word is selected, the audio file with the Miwok translation of the word is played.
 An instance MediaPlayer is used for the audio, and released when the audio file has completed.
 
+NOTE: Though not reflected in the screenshots, I updated the app to include the Up button for navigation.
+
 *Based on the Miwok app in Udacity's "Android Basics: Multiscreen Apps" course. However, they don't use a RecyclerView in their app*
 
 ![Screenshot of app](https://github.com/alj968/UdacityMultiscreenApps_MiwokAppWithRecyclerView/blob/master/MiwokCategories.png "Screenshot 1 of app, Initial Screen - Categories")
