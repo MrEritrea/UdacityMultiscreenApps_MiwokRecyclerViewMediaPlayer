@@ -22,7 +22,6 @@ public class WordAdapter extends RecyclerView.Adapter<WordViewHolder> {
 
     @Override
     public WordViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        //TODO: Check if "parent.getContext" actually works!
         LayoutInflater inflater = LayoutInflater.from(parent.getContext());
         View view = inflater.inflate(R.layout.word_list_item, parent, false);
         return new WordViewHolder(view, mColorResourceId);
